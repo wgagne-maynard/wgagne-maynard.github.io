@@ -3,15 +3,8 @@
 
 @import "{{ site.theme }}";
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-}
 
-li a {
+header li a {
     display: block;
     color: #111;
     padding: 8px 16px;
