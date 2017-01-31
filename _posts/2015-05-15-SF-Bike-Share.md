@@ -69,7 +69,7 @@ p{
 
 </style>
 <body>
-<script src="http://d3js.org/d3.v3.js"></script>
+<script src="https://d3js.org/d3.v3.js"></script>
 
 <p>This graphic shows the number of rides along the ten most popular routes between  <a href="http://www.bayareabikeshare.com/datachallenge"> Bay Area Bike Share</a> stations during the first six months. Use the buttons below to see the breakdown of rides versus different units of time. Scroll over the lines to see the start and end points. Click on a line to change the color.</p>
 

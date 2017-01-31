@@ -11,7 +11,7 @@ Project inspired by final assignment for CSE512 at UW.  This data visualization 
 ![Static Image of Project](/images/MetagenomicBrowser.JPG)
 
 
-[Metagenomic Browser](https://github.com/borenstein-lab/burrito/)
+[Metagenomic Browser](http://borenstein-lab.github.io/burrito/)
 
 
 
