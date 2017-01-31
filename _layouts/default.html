@@ -16,14 +16,14 @@
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv/WillGagne-Maynard.pdf">CV</a></li>
-	        		<li><a href="/projects">Projects</a></li>
-	    		</ul>
-			</nav>
+        
+	    	<ul>
+	        	<li><a href="/">Home</a></li>
+		        <li><a href="/about">About</a></li>
+	        	<li><a href="/cv/WillGagne-Maynard.pdf">CV</a></li>
+	        	<li><a href="/projects">Projects</a></li>
+	    	</ul>
+			
         {% if site.github.is_user_page %}
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
