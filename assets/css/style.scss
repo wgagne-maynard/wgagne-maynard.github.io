@@ -142,6 +142,7 @@ header li:last-child a {
 */
 li a {
     display: block;
+    clear: left;
 }
 
 header ul a {
