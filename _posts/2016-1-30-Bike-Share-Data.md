@@ -117,8 +117,8 @@ svg{
 
 <script>
 
-var margin = {top: 20, right: 80, bottom: 30, left: 50},
-    width = 700 - margin.left - margin.right,
+var margin = {top: 20, right: 80, bottom: 30, left: 250},
+    width = 1000 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 var parseDateHour = d3.time.format("%H").parse;
