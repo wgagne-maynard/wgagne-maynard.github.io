@@ -67,7 +67,7 @@ h1{
 
 p{
   font-size: 14px;
-  width: 960px;
+  width: 700px;
 }
 
 
@@ -114,7 +114,7 @@ p{
 
 <script>
 
-var margin = {top: 20, right: 80, bottom: 30, left: 300},
+var margin = {top: 20, right: 80, bottom: 30, left: 450},
     width = 1050 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
