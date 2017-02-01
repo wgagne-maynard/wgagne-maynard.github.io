@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+---
+layout: default
+title: "Bike Share Data in D3.js"
+date: 2015-05-15
+---
+
+**Bike Share Visualization**
+
+Simple animated graph created in D3.js.  Click on different routes to highlight.
+
+Created with [Grace Telford](http://staff.washington.edu/otelford/index.html) for UW's CSE512 Data Visualization course.
 
 <html>
 
@@ -234,7 +244,7 @@ d3.tsv("totalday.tsv", function(error, data) {
 function Hour() {
 
     // Get the data again
-    d3.tsv("totalhour.tsv", function(error, data) {
+    d3.tsv("/BikeShareDate/totalhour.tsv", function(error, data) {
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   data.forEach(function(d) {
@@ -284,7 +294,7 @@ function Hour() {
 function Day() {
 
     // Get the data again
-    d3.tsv("totalday.tsv", function(error, data) {
+    d3.tsv("/BikeShareDate/totalday.tsv", function(error, data) {
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   data.forEach(function(d) {
@@ -333,7 +343,7 @@ function Day() {
 function Month() {
 
     // Get the data again
-    d3.tsv("totalmonth.tsv", function(error, data) {
+    d3.tsv("/BikeShareDate/totalmonth.tsv", function(error, data) {
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   data.forEach(function(d) {
@@ -382,7 +392,7 @@ function Month() {
 function Reset() {
 
     // Get the data again
-    d3.tsv("totalday.tsv", function(error, data) {
+    d3.tsv("/BikeShareDate/totalday.tsv", function(error, data) {
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   data.forEach(function(d) {
