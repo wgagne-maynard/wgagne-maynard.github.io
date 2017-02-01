@@ -70,6 +70,9 @@ p{
   width: 700px;
 }
 
+svg{
+  float:right;
+}
 
 </style>
 <body>
