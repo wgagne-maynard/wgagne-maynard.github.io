@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Bike Share Data in D3.js"
-date: 2015-05-15
+date: 2016-1-30
 ---
 
 **Bike Share Visualization**
