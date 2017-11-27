@@ -41,7 +41,7 @@ if ("geom_sf" %in% getNamespaceExports("ggplot2")) {
   }
 ```
 
-![](/IPUMSR_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](/images/unnamed-chunk-5-1.png)
 
 Mapping all of King Country really just shows the larger census blocks out east. Let's try to figure out how to focus on just the Seattle area.
 
@@ -60,7 +60,7 @@ if ("geom_sf" %in% getNamespaceExports("ggplot2")) {
   }
 ```
 
-![](/IPUMSR_files/figure-markdown_github/unnamed-chunk-6-1.png) Now I have a map, but the area is still too large to get a clear picture of any spatial trends.
+![](/images/unnamed-chunk-6-1.png) Now I have a map, but the area is still too large to get a clear picture of any spatial trends.
 
 Option 1. Look at an even smaller area.
 
@@ -81,7 +81,7 @@ if ("geom_sf" %in% getNamespaceExports("ggplot2")) {
   }
 ```
 
-![](/IPUMSR_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](/images/unnamed-chunk-7-1.png)
 
 Looks good! No immediate trends in vacancy rates, although 20% vacancy seems high for certain blocks in 2010 Seattle. I need to look more into how these are actually measured.
 
@@ -98,7 +98,7 @@ nhgis_leg_2 <- nhgis_2_king[nhgis_2_king$SLDUA %in% c("036","043","046"),]
         coord_sf(crs =st_crs(3395))
 ```
 
-![](/IPUMSR_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](/images/unnamed-chunk-9-1.png)
 
 Some interesting trends jump out here. The area with the highest non-relative household % looks to be in the U-District, which would be expected due to the relatively high student population.
 
@@ -116,7 +116,7 @@ nhgis_98105 <- nhgis_2_king[nhgis_2_king$ZCTA5A %in% c("98105"),]
         coord_sf(crs =st_crs(3395)) 
 ```
 
-![](/IPUMSR_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![](/images/unnamed-chunk-10-1.png)
 
 Anyways, quick fun way to get to play with the IPUMSR package and get a handle on the data available on the [NHGIS portal](https://www.nhgis.org/).
 
